@@ -1,0 +1,34 @@
+classe,value
+Floresta,1
+Floresta Natural,2
+Formação Florestal,3
+Formação Savânica,4
+Mangue,5
+Floresta Alagada,6
+Floresta Degradada,7
+Floresta Secundária,8
+Floresta Plantada,9
+Formação Natural não Florestal,10
+Área Úmida Natural não Florestal,11
+Formação Campestre,12
+Outra Formação não Florestal,13
+Agropecuária,14
+Pastagem,15
+Pastagem Natural,16
+Pastagem Plantada,17
+Agricultura,18
+Cultivo Anual e Perene,19
+Cultivo Semi-Perene,20
+Mosaico de Agricultura ou Pastagem,21
+Área não Vegetada,22
+Praia e Duna,23
+Infraestrutura Urbana,24
+Outra área não Vegetada,25
+Corpo D'água,26
+Não observado,27
+Mosaico de Cultivo,28
+Afloramento Rochoso,29
+Mineração,30
+Aquicultura,31
+Apicum,32
+"Rio, Lago e Oceano",33

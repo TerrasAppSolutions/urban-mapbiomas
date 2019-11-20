@@ -102,10 +102,10 @@ def get_perfomance(data_matrix):
     tnr = tn / (tn + fp)
     performance = data_matrix[["year"]]
     performance["date"] = performance["year"].astype(str) + "-01-01"
-    performance["recall"] = tp / (tp + fn)
-    performance["precision"] = tp / (tp + fp)
-    performance["accuracy"] = (tp + tn) / (tp + tn + fp + fn)
-    performance["bal_accuracy"] = (performance["recall"] + tnr) / 2
+    performance["recall"] = tp / (tp + fn + 0.0)
+    performance["precision"] = tp / (tp + fp + 0.0)
+    performance["accuracy"] = (tp + tn + 0.0) / (tp + tn + fp + fn + 0.0)
+    performance["bal_accuracy"] = (performance["recall"] + tnr) / 2.0
     del performance["year"]
 
     return performance
